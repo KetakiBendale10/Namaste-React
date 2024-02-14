@@ -1,4 +1,36 @@
-#heading{
-    color: red;
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-img{
+    height: 70px;
+    width: 70px;
+}
+.nav-items{
+    display: flex;
+}
+.nav-items> li{
+    list-style-type: none;
+    padding-right: 20px;
+}
+.res-card{
+    width: 200px;
+    height: auto;
+    padding: 10px;
     
+}
+.res-card:hover{
+    border: 1px solid grey;
+    box-shadow: 0cm;
+}
+.res-img{
+    width: 100%;
+    height: 100px;
+}
+.body-container{
+    background-color:azure
+}
+.restaurantcard{
+    display: flex;
+    flex-wrap: wrap;
 }
