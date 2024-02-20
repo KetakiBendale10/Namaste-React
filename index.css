@@ -34,3 +34,11 @@
     display: flex;
     flex-wrap: wrap;
 }
+.login-btn{
+    height:20px;
+    width:60px;
+    padding: 1px;
+}
+.login-btn :hover{
+    cursor: pointer;
+}
