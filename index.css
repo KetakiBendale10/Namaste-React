@@ -42,3 +42,14 @@
 .login-btn :hover{
     cursor: pointer;
 }
+.shimmer{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: "black";
+}
+.About-card{
+    padding: 10px;
+    border: 1px solid grey;
+    background-color: azure;
+}
