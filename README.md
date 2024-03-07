@@ -17,9 +17,9 @@
 # 20 feb 2024 finding the path
 useEffect()---when is this called
 it called after every render 
-# if the no dependency array that means useEffect is caleed on every render
-# if dependency array is empty =[] => useeffect is called on only intial render or only once
-# if dependecy array has value =[]=> only be called when dependency array  changes
+if the no dependency array that means useEffect is caleed on every render
+if dependency array is empty =[] => useeffect is called on only intial render or only once
+if dependecy array has value =[]=> only be called when dependency array  changes
 
 
 # useState()
@@ -29,10 +29,25 @@ it create local state variable
 # react router dom library
 
 never used <a><a/> tag in react for creating link --super power from react-router-dom for anchor tag
-#
+
 two types of routing 
 1. client side routing --we are using this one --all component are already present in our app
 2. server side routing --need to fetch from server
 
 # graph QL
+Testing:
+1.unit testing
+2.Integration testing
+3.end2 end tesing e2e testing
+-----jest testing library
+and react testing library
+
+
+setting up testing in our app
+==install react testing library
+-- install jest
+--installed babel dependencies
+-configure babel
+--configure parcel config file to disable default babel transpilation
+
 
